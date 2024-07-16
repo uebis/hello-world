@@ -1,4 +1,4 @@
-💻 # Hello, world!
+# 💻 Hello, world!
 
 ```
 Aqui está o meu primeiro contato com o mundo dos códigos (um salve pro Guanabara, pai dos devs brs).
