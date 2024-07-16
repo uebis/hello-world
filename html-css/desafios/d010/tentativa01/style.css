@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+
+body {
+    background-color: #a8dfc1;;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgb(82, 165, 114), rgb(19, 102, 40));
+    color: white;
+    text-align: center;
+    font: 1.25em Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.671);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.541);
+    position: sticky;
+    
+}
+
+header > h1 {
+    font: bold 1.75em Arial, Helvetica, sans-serif;
+    color: white 
+}
+nav {
+    text-align: left;
+    white-space: 20px;
+    font: bold 0.8em sans-serif;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+#cabecalho > a {
+    margin: 30px;
+}
+
+main {
+    background-color: aliceblue;
+    margin: 0px 70px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 2em;
+    padding: 40px 40px 0px 40px;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: idroid, Arial, sans-serif;
+    text-align: center;
+    color: rgb(37, 158, 37);
+    text-shadow: 2px 1px 1px black;
+}
+
+h2 {
+    background-image: linear-gradient(90deg, #b9dac1, aliceblue);
+    text-align: left;
+    padding: 5px;
+    margin: 0px 20px 0px 20px;
+}
+
+article > p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 20px;
+}
+
+main > header {
+    background-image: linear-gradient(90deg, #3e9159, #3e9159); 
+    position: sticky;
+    border-radius: 5px 5px 0px 0px;
+    padding: 0.1px;
+    margin: 0px 20px 0px 20px;
+    box-shadow: none;
+    font: bold 0.8em Arial, Helvetica, sans-serif;
+    text-shadow: none;
+    text-indent: 30px;
+    z-index: 2;
+}
+
+#video {
+    background-color: #3e9159;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    margin:  0px 0px 20px 0px;
+    position: static;
+    border-radius: 0px;
+}
+
+aside {
+    background-color: #c6ebd5;
+    padding: 5px 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px 20px 0px 20px;
+    position: relative;
+    z-index: 0;
+}
+
+h3 {
+    color: white;
+    margin: 7px;
+}
+
+div {
+    display: inline-block;
+    align-items: end;
+    text-align: left;
+    margin-right: 120px;
+    
+}
+
+div#lista2 {
+    display: inline-block;
+}
+
+div > p {
+    line-height: 5px;
+}
+
+div > p > a {
+    color: black;
+    font-family: Tahoma, sans-serif
+}
+
+footer {
+    background-color: #3e9159;
+    border-style: solid;
+    border-color: #3e9159;
+    color: white;
+    text-align: center;
+}

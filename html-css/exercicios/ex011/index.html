@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <!--Imagens-->
+    <h1>Imagens Dinâmicas</h1>
+<picture>
+    <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+    <img src="foto-g.png" alt="A imagem flexível funciona">
+</picture>
+    <!--Áudio-->
+    <h1>Áudios</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta áudio <a href="guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg"></a></p>
+    </audio>
+<!--Vídeos-->
+<h1>Vídeos</h1>
+<h2>Vídeo local</h2>
+<video width="600" poster="hogleg.jpg" controls autoplay>
+    <source src="Imagens Dinâmicas - Google Chrome 2023-03-11 19-58-38.mp4" type="video/mp4">
+    <p>Infelizmente seu navegador não conseguiu carregar o vídeo</p>
+</video>
+<h2>vídeo do youtube</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fsOBHhkdlPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

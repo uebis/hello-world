@@ -1,0 +1,5 @@
+print('Sobre a sua data de nascimento:')
+dia = input('Dia: ')
+mes = input('Mês: ')
+ano = input('Ano: ')
+print('Vocês nasceu no dia',dia,'de',mes,'de',ano)

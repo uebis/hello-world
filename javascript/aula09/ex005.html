@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background: rgb(103, 125, 172);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos com DOM</h1>
+    <p name = "msg">Aqui vai o resultado</p>
+    <p id="s1">Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        window.document.write(window.document.charset + '</br>')
+        window.document.write(window.navigator.appName + '</br>')
+        window.document.write(window.document.URL + '</br>')
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        var n = window.document.getElementsByName('msg')[0]
+        var s = window.document.querySelector('p#s1')
+        corpo.style.background = 'black'
+        window.document.write('Está escrito assim: ' + p1.innerText + '</br>')
+        p1.style.color = 'blue'
+        window.document.write('Está escrito assim: ' + p1.innerHTML + '</br>')
+        //window.alert(p1.innerText)
+        d.style.background = 'green'
+        //d.innerText = 'Estou aguardando... </br>'
+        //var d = window.document.getElementById('msg').innerText = 'Estou Aguardando... </br>'
+        n.innerText = 'Mudei sozinha'
+        window.document.write(s.innerHTML)
+
+    </script>
+</body>
+</html>
